@@ -1,4 +1,4 @@
-// 기본 타입 설정(문자, 숫자, boolean, 배열, 튜플)
+// 1. 기본 타입 
 // 설정된 타입과 다른 타입을 변수에 할당하려고 하면 에러가 인식된다.
 let car:string = 'bmw' //타입을 설정하지 않아도, 타입의 형태를 인식한다.
 let boolean = true
@@ -13,12 +13,11 @@ c = ['1', 1]
 
 // 함수: void, never
 
-// 1. void: 함수에 특정한 반환값이 없을 때 사용하는 타입
+// 1) void: 함수에 특정한 반환값이 없을 때 사용하는 타입
 function sayHello():void{
     console.log('hello')
 }
-
-// 2. never: 항상 에러를 반환하는 함수, 무한순환하는 함수에 사용하는 타입
+// 2) never: 항상 에러를 반환하는 함수, 무한순환하는 함수에 사용하는 타입
 function showError():never{
     throw new Error()
 }
@@ -42,4 +41,6 @@ enum Os {
 // null, undefined
 let x:null = null
 let y:undefined = undefined
+
+
 
