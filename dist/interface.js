@@ -26,4 +26,13 @@ var Bmw = (function () {
 }());
 var bmw = new Bmw('red');
 bmw.start();
+var lego = {
+    color: 'red',
+    wheels: 4,
+    start: function () {
+        console.log('lego go');
+    },
+    name: 'woodi',
+    price: 5000
+};
 //# sourceMappingURL=interface.js.map

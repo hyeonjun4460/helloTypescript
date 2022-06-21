@@ -1,9 +1,9 @@
 {
   "scripts": {
     "build": "tsc",
-    "start:dev": "tsc-watch --onSuccess \"node dist/app.js\"",
+    "start:dev": "tsc-watch --onSuccess \"node dist/test.js\"",
     "prestart": "npm run build",
-    "start": "node dist/interface.js"
+    "start": "node dist/test.js"
   },
   "devDependencies": {
     "@types/node": "^15.3.0",

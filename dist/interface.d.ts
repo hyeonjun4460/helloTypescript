@@ -20,6 +20,13 @@ interface Car {
     wheels: number;
     start(): void;
 }
+interface Toy {
+    name: string;
+}
+interface Benz extends Car {
+    door: number;
+    stop(): void;
+}
 declare class Bmw implements Car {
     color: string;
     wheels: number;
@@ -27,3 +34,7 @@ declare class Bmw implements Car {
     start(): void;
 }
 declare const bmw: Bmw;
+interface ToyCar extends Car, Toy {
+    price: number;
+}
+declare const lego: ToyCar;
