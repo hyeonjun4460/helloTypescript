@@ -103,5 +103,5 @@ typings/
 # TernJS port file
 .tern-port
 
-
+dist
 src/test.ts
