@@ -1,7 +1,7 @@
 {
   "scripts": {
     "build": "tsc",
-    "start:dev": "tsc-watch --onSuccess \"node dist/type.js\"",
+    "start:dev": "tsc-watch --onSuccess \"node dist/class.js\"",
     "prestart": "npm run build",
     "start": "node dist/test.js"
   },
